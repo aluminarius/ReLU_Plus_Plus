@@ -18,9 +18,9 @@ If x < 0, then f(x) = ax
 
 If x ≥ 0, then f(x) = bx
 
-Where a and b are parameters that control the slope for negative and positive values, respectively.
+Where a and b are parameters that control the slope for negative and positive values, respectively, and 1 ≥ b > a ≥ 0.
 
-It is important to note that ReLU (a=0, b=1), Leaky ReLU (a=0.01, b=1), and Parametric ReLU (a=0.05, b=1) are special cases of ReLU++, making ReLU++ a more flexible and efficient generalization of these activation functions. Additionally, when in ReLU++ a=1 and b=1, the activation function behaves like an identity function, meaning that the output is equal to the input, effectively "disabling" the activation function.
+It is important to note that ReLU (a=0, b=1), Leaky ReLU (a=0.01, b=1), and Parametric ReLU (a=0.05, b=1) are special cases of ReLU++, making ReLU++ a more flexible and efficient generalization of these activation functions.
 
 _Features_
 
